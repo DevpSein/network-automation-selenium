@@ -28,7 +28,7 @@ public class Test_Jacket_Add extends BaseTest {
     //Scroll
     @Test
     @Order(2)
-    public void scrollDown() throws InterruptedException {
+    public void scrollDown() {
         searchBox.scroll();
     }
 
@@ -50,6 +50,8 @@ public class Test_Jacket_Add extends BaseTest {
     public void addToChart() throws InterruptedException {
         productsPage = new ProductsPage(webDriver);
         productsPage.selectProduct();
+        Assertions.assertTrue(productsPage.compareTwoItem(),
+                "Bu ürünlerin fiyatı aynı değil");
     }
 
     // Sepete Git

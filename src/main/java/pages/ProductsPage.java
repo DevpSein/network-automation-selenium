@@ -37,22 +37,17 @@ public class ProductsPage extends BasePage {
         WebElement element = find(productSize);//.findElement(productSize).click();
         hover(element);
         Thread.sleep(3500);
-        compareTwoItem();
-
 
     }
-
-
-
     //Sepetteki ürünün fiyat kiyaslamasi
     public boolean compareTwoItem() {
         WebElement urunFiyat = find(productPrize);
         WebElement sepetFiyat = find(cartPrize);
-        boolean count = true;
         if (!urunFiyat.getText().equals(sepetFiyat.getText())) {
-            count = false;
+            return false;
+        } else {
+            return true;
         }
-        return count;
     }
 
 }

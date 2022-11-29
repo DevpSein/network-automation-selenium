@@ -1,0 +1,56 @@
+2022-11-29 21:17:45,128 INFO  [Log] searchProduct() PASSED 
+2022-11-29 21:17:45,152 INFO  [Log] scrollDown() PASSED 
+2022-11-29 21:17:48,155 ERROR [Log] goNextPage() FAILED with cause : Wrong Url ==> expected: <https://www.network.com.tr/search?searchKey=ceket> but was: <https://www.network.com.tr/search?searchKey=ceket&page=2> 
+2022-11-29 21:17:52,817 ERROR [Log] addToChart() FAILED with cause : no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="header__desktopBasket"]/div/div[2]/div/div[2]/span[1]"}
+  (Session info: chrome=107.0.5304.122)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [16d98adafbef60940b0fe29969ec69d1, findElement {using=xpath, value=//*[@id="header__desktopBasket"]/div/div[2]/div/div[2]/span[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.122, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\burak\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62167}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62167/devtoo..., se:cdpVersion: 107.0.5304.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 16d98adafbef60940b0fe29969ec69d1 
+2022-11-29 21:17:56,179 INFO  [Log] goCart() PASSED 
+2022-11-29 21:17:56,194 ERROR [Log] continueCart() FAILED with cause : no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[1]/div[1]/div[2]/div/div[2]/button"}
+  (Session info: chrome=107.0.5304.122)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [16d98adafbef60940b0fe29969ec69d1, findElement {using=xpath, value=/html/body/div[1]/div/div[1]/div[1]/div[2]/div/div[2]/button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.122, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\burak\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62167}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62167/devtoo..., se:cdpVersion: 107.0.5304.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 16d98adafbef60940b0fe29969ec69d1 
+2022-11-29 21:17:56,407 ERROR [Log] EmailFromCsv() FAILED with cause : no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[4]/div/div/div/div/div[1]/div[1]/form/div[2]/div/input"}
+  (Session info: chrome=107.0.5304.122)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [16d98adafbef60940b0fe29969ec69d1, findElement {using=xpath, value=/html/body/div[4]/div/div/div/div/div[1]/div[1]/form/div[2]/div/input}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.122, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\burak\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62167}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62167/devtoo..., se:cdpVersion: 107.0.5304.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 16d98adafbef60940b0fe29969ec69d1 
+2022-11-29 21:17:56,422 ERROR [Log] homePage() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"svg[class=headerCheckout__logo__img]"}
+  (Session info: chrome=107.0.5304.122)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [16d98adafbef60940b0fe29969ec69d1, findElement {using=css selector, value=svg[class=headerCheckout__logo__img]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.122, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\burak\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62167}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62167/devtoo..., se:cdpVersion: 107.0.5304.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 16d98adafbef60940b0fe29969ec69d1 
+2022-11-29 21:18:30,185 INFO  [Log] searchProduct() PASSED 
+2022-11-29 21:18:30,633 INFO  [Log] scrollDown() PASSED 
+2022-11-29 21:18:34,145 INFO  [Log] goNextPage() PASSED 
+2022-11-29 21:18:38,136 INFO  [Log] addToChart() PASSED 
+2022-11-29 21:18:41,463 INFO  [Log] goCart() PASSED 
+2022-11-29 21:18:43,001 INFO  [Log] continueCart() PASSED 
+2022-11-29 21:18:45,391 INFO  [Log] EmailFromCsv() PASSED 
+2022-11-29 21:18:46,655 INFO  [Log] homePage() PASSED 
+2022-11-29 21:19:54,345 INFO  [Log] searchProduct() PASSED 
+2022-11-29 21:19:54,545 INFO  [Log] scrollDown() PASSED 
+2022-11-29 21:19:58,035 INFO  [Log] goNextPage() PASSED 
+2022-11-29 21:20:01,916 INFO  [Log] addToChart() PASSED 
+2022-11-29 21:20:04,645 INFO  [Log] goCart() PASSED 
+2022-11-29 21:20:06,182 INFO  [Log] continueCart() PASSED 
+2022-11-29 21:20:08,378 INFO  [Log] EmailFromCsv() PASSED 
+2022-11-29 21:20:09,458 INFO  [Log] homePage() PASSED 
